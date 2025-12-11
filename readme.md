@@ -49,7 +49,7 @@ HTML Templates (Jinja2 + Bootstrap)
 
 | Layer | Technology |
 |------|------------|
-| Frontend | HTML, CSS,  |
+| Frontend | HTML, CSS  |
 | Backend | Python  |
 | Database | SQLite |
 | Tools | Git, GitHub, Virtual Environment |
