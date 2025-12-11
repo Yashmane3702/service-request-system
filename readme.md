@@ -49,10 +49,9 @@ HTML Templates (Jinja2 + Bootstrap)
 
 | Layer | Technology |
 |------|------------|
-| Frontend | HTML, CSS, Bootstrap, Jinja2 |
-| Backend | Python Flask |
+| Frontend | HTML, CSS,  |
+| Backend | Python  |
 | Database | SQLite |
-| Architecture | MVC Pattern |
 | Tools | Git, GitHub, Virtual Environment |
 
 ---
