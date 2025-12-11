@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="text-center">
+    <h1>Cloud-Based Service Request System</h1>
+    <p class="lead mt-3">
+        Raise, track and manage your service requests digitally.
+    </p>
+    {% if not user %}
+      <a href="{{ url_for('register') }}" class="btn btn-primary">Get Started</a>
+    {% else %}
+      <a href="{{ url_for('dashboard') }}" class="btn btn-success">Go to Dashboard</a>
+    {% endif %}
+</div>
+{% endblock %}

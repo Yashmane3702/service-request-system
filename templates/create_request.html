@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Create Service Request</h2>
+<form method="post">
+  <div class="mb-3">
+    <label class="form-label">Title</label>
+    <input type="text" name="title" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Description</label>
+    <textarea name="description" class="form-control" rows="3"></textarea>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Category</label>
+    <input type="text" name="category" class="form-control" placeholder="IT, HR, Finance, etc.">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Priority</label>
+    <select name="priority" class="form-select" required>
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+      <option value="Critical">Critical</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-success">Submit Request</button>
+</form>
+{% endblock %}
