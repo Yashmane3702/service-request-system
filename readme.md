@@ -25,9 +25,8 @@
 - Auto-table creation on startup
 
 ### 🎨 UI/UX
-- Clean, mobile-friendly UI using **Bootstrap 5**  
-- Flash messages for feedback  
-- Consistent layout using Jinja templates
+- Clean, mobile-friendly UI   
+
 
 ---
 
